@@ -1,6 +1,703 @@
-@import url(variables.css);
+@import url(../css/variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: var(--color-4);
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-right: 37px;
+}
+.div__agua {
+    background: var(--color-2);
+    border-radius: 48px;
+    width: 304px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+}
+.div__agua h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+    color: var(--color-10);
+    font-weight: 100;
+}
+.div__agua img{
+    width: 46px;
+    height: 45px;
+}
+.div__top {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: auto;
+    height: 38px;
+    gap: 10px;
+}
+.div__inicio{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    
+}
+.div__top span{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-right: 89px;
+    flex-wrap: nowrap;
+}
+.div__top a{
+    text-decoration: none;
+}
+.div__top span:first-child{
+    margin-right: 25px;
+}
+.div__top img{
+    width: 92%;
+}
+.div__moon-sun {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.div__moon-sun img:first-child{
+    width: 35px;
+    height: 35px;
+}
+.div__moon-sun img:last-child{
+    width: 40px;
+    height: 40px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__main {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 62px;
+    padding-right: 30px;
+    gap: 108px;
+}
+.div__left {
+    width: 707px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.div__left img{
+    width: 707px;
+    height: 391px;
+}
+.div__left h1{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    color: var(--color-2);
+    font-weight: 100;
+}
+.div__left p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-2);
+    font-weight: 100;
+}
+.div__comprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+.div__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div__perrito {
+}
+.div__perrito img{
+    width: 700px;
+    height: 600px;
+        
+}
+.div__comprar a{
+    width: 237px;
+    height: 54px;
+    background: var(--color-1);
+    border-radius: 31.5px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 40px;
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__comprar img{
+    width: 30px;
+    height: 30px;
+}
+.div__social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div__social img :nth-child(1){
+    width: 62px;
+    height: 62px;
+}
+.div__social img :nth-child(2){
+    width: 50px;
+    height: 50px;
+}
+
+.div__social img :nth-child(3){
+    width: 50px;
+    height: 54.36px;
+}
+.section__juego{
+    width: 654px;
+    height: 258px;
+    padding-top: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.section__juego h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--color-2);
+    text-align: center;
+}
+.section__juego p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-2);
+    font-weight: 100;
+    text-align: center;
+}
+.section__container {
+    margin-top: 241px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.article__rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+}
+.div__number {
+    width: 100px;
+    height: 100px;
+    background: var(--color-1) ;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div__number h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    color: var(--color-3);
+}
+.article__rules p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+    font-weight: 100;
+    padding-right: 21px;
+    width: 952px;
+    height: 187px;
+}
+.article__rules img{
+    width: 162px;
+    height: 162px;
+}
+.section__apoyanos {
+    display: flex;
+    gap: 37px;
+    width: 1167px;
+    height: 438px;
+    margin-top: 212px;
+}
+.div__apoyo {
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+.div__apoyo h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--color-1);
+}
+.div__apoyo p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+    font-weight: 100;
+}
+.div__pc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+.div__pc img{
+    width: 375px;
+    height: 305px;
+}
+.div__pc a{
+    width: 282px;
+    height: 57px;
+    background: var(--color-1);
+    border-radius: 32.5px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 36px;
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__bottom {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 179px;
+    margin-bottom: 250px;
+}
+.div__bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    width: 713px;
+    height: 592px;
+}
+.div__bottom-text h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--color-1);
+}
+.div__bottom-text p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);
+    font-weight: 100;
+}
+.div__box {
+}
+.div__blind {
+    display: flex;
+}
+.div__blind img:first-child{
+    width: 237px;
+    height: 237px;
+}
+.div__blind img:last-child{
+    width: 238px;
+    height: 238px;
+    position: relative;
+    right: 120px;
+}
+.div__aqua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.div__aqua h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 96px;
+    color: var(--color-1);
+    font-weight: 100;
+}
+.div__aqua img{
+    width: 82px;
+    height: 80px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-1);
+    width: 100%;
+    height: 64px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.div__first {
+    display: flex;
+}
+.div__first img{
+    width: 24px;
+    height: 24px;
+}
+.div__first span{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+    font-weight: 100;
+}
+.div__second span{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: var(--color-7);
+    font-weight: 100;
+}
+@media (max-width: 390px) {
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.div__agua {
+    background: var(--color-2);
+    border-radius: 48px;
+    width:max-content;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 0px;
+}
+.div__agua h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 18px;
+    color: var(--color-10);
+    font-weight: 100;
+}
+.div__agua img{
+    width: 20px;
+    height: 20px;
+}
+.div__inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.div__top span{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 14px;
+    color: var(--color-1);
+    padding: 5px;
+    text-wrap: wrap;
+}
+.div__top img{
+    width: 50px;
+}
+.div__moon-sun {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.div__moon-sun img:first-child{
+    width: 15px;
+    height: 15px;
+}
+.div__moon-sun img:last-child{
+    width: 14px;
+    height: 14px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+.div__left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.div__left img{
+    width: 300px;
+    height: 100px;
+}
+.div__left h1{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-2);
+    font-weight: 100;
+}
+.div__left p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 16px;
+    color: var(--color-2);
+    font-weight: 100;
+}
+
+.div__comprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div__middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div__perrito {
+}
+.div__perrito img{
+    width: 600px;
+    height: 200px;
+        
+}
+.div__comprar a{
+    width: 137px;
+    height: 24px;
+    background: var(--color-1);
+    border-radius: 20px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 20px;
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__comprar img{
+    width: 20px;
+    height: 20px;
+}
+.div__social img{
+    width: 40px;
+    height: 40px;
+}
+.section__juego{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+.section__juego h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 44px;
+    color: var(--color-2);
+    text-align: center;
+}
+.section__juego p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-2);
+    font-weight: 100;
+    text-align: center;
+}
+.section__container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 15px;
+}
+.article__rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.div__number {
+    width: 50px;
+    height: 50px;
+    background: var(--color-1) ;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div__number h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 44px;
+    color: var(--color-3);
+}
+.article__rules p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-1);
+    font-weight: 100;
+
+}
+.article__rules img{
+    width: 62px;
+    height: 62px;
+}
+.section__apoyanos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    width: 80%;
+    height: 100%;
+    margin-top: 90px;
+    padding: 15px;
+}
+.div__apoyo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 53px;
+}
+.div__apoyo h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 52px;
+    color: var(--color-1);
+}
+.div__apoyo p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-1);
+    font-weight: 100;
+    text-align: center;
+}
+.div__pc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.div__pc img{
+    width: 275px;
+    height: 205px;
+}
+.div__pc a{
+    width: 182px;
+    height: 27px;
+    background: var(--color-1);
+    border-radius: 32.5px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 26px;
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 79px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.div__bottom-text {
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    width: 100%;
+    height: 100%;
+}
+.div__bottom-text h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 42px;
+    color: var(--color-1);
+}
+.div__bottom-text p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-1);
+    font-weight: 100;
+}
+.div__blind {
+    display: flex;
+}
+.div__blind img:first-child{
+    width: 137px;
+    height:137px;
+}
+.div__blind img:last-child{
+    width: 138px;
+    height: 138px;
+    position: relative;
+    right: 65px;
+}
+.div__aqua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.div__aqua h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56px;
+    color: var(--color-1);
+    font-weight: 100;
+}
+.div__aqua img{
+    width: 52px;
+    height: 50px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-1);
+    width: 100%;
+    height: 44px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.div__first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div__first img{
+    width: 24px;
+    height: 24px;
+}
+.div__first span{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 14px;
+    color: var(--color-3);
+    font-weight: 100;
+}
+.div__second span{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 14px;
+    color: var(--color-7);
+    font-weight: 100;
+}
 }
