@@ -1,6 +1,157 @@
-@import url(variables.css);
+@import url(../css/variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: var(--color-4);
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-right: 37px;
+}
+.div__agua {
+    background: var(--color-2);
+    border-radius: 48px;
+    width: 304px;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+}
+.div__agua h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+    color: var(--color-10);
+    font-weight: 100;
+}
+.div__agua img{
+    width: 46px;
+    height: 45px;
+}
+.div__top {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: auto;
+    height: 38px;
+    gap: 10px;
+}
+.div__inicio{
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    
+}
+.div__top span{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-right: 89px;
+    flex-wrap: nowrap;
+}
+.div__top span:first-child{
+    margin-right: 25px;
+}
+.div__top img{
+    width: 92%;
+}
+.div__moon-sun {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.div__moon-sun img:first-child{
+    width: 35px;
+    height: 35px;
+}
+.div__moon-sun img:last-child{
+    width: 40px;
+    height: 40px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__main {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 62px;
+    gap: 108px;
+}
+.div__left {
+    width: 707px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.div__left img{
+    width: 707px;
+    height: 391px;
+}
+.div__left h1{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    color: var(--color-2);
+    font-weight: 100;
+}
+.div__left p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    color: var(--color-2);
+    font-weight: 100;
+}
+.div__comprar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div__comprar img{
+    width: 405.12px;
+    height: 432.07px;
+}
+.div__comprar a{
+    width: 237px;
+    height: 54px;
+    background: var(--color-1);
+    border-radius: 31.5px;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 40px;
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__comprar img:last-child{
+    width: 30px;
+    height: 30px;
+}
+.div__social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div__social img :nth-child(1){
+    width: 62px;
+    height: 62px;
+}
+.div__social img :nth-child(2){
+    width: 50px;
+    height: 50px;
+}
+
+.div__social img :nth-child(3){
+    width: 50px;
+    height: 54.36px;
+}
+
+
