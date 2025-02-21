@@ -56,6 +56,9 @@ body{
     padding-right: 89px;
     flex-wrap: nowrap;
 }
+.div__top a{
+    text-decoration: none;
+}
 .div__top span:first-child{
     margin-right: 25px;
 }
